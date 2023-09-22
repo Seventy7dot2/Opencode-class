@@ -23,6 +23,9 @@ body {
 .gender-label{
     display: inline-block !important;
 }
+.form-group input[type="radio"]{
+    cursor: pointer;
+}
 .form-group input[type="text"],
 .form-group input[type="date"],
 .form-group input[type="tel"] {
