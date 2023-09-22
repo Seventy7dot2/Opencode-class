@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenCode Club Induction Form</title>
+</head>
+
+<body>
+        <a href="https://www.instagram.com/opencode.nitr" target="_blank"><img src="opencode-logo.jpeg"
+                alt="OpenCode Logo" id="logo" width="100"></a>
+        <h2>OpenCode Club Induction Form</h2>
+        <div>
+            <h3>Need Help?</h3>
+            <ul>
+                <li>Support: 123-456-7890</li>
+                <li>Technical Assistance: 987-654-3210</li>
+            </ul>
+        </div>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="rollno">Roll Number:</label>
+                <input type="text" id="rollno" name="rollno" required>
+            </div>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other" required>
+                <label for="other">Other</label>
+            </div>
+            <div>
+                <label for="phone">Phone Number (max 10 digits):</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{1,10}" required>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+</body>
+
+</html>
